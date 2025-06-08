@@ -2,6 +2,8 @@ const url = require('url')
 const http = require('http')
 const fs = require('fs')
 
+const PORT = 8080
+
 http.createServer((req, res) => {
     console.log(req.method)
     if (req.method == "GET") {
@@ -73,7 +75,7 @@ http.createServer((req, res) => {
         res.end("Successfully deleted")
     }
 
-}).listen(8080)
+}).listen(PORT)
 
 function addContact(name, number) {
     fs.appendFile('contacts.txt', '\n' + name + ',' + number, (err) => {
