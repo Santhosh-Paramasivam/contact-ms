@@ -1,0 +1,4 @@
+sathvik,100
+kavin,300
+zahid,666
+abbi,999
