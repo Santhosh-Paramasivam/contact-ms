@@ -6,7 +6,7 @@ A contact management system utilising a custom HTTP server, plain-old javascript
 
 This project was developed without using Javascript frameworks such as React.js or Express.js which simplify the development of web applications.
 
-The project helped me learn the internal workings of HTTP servers and manual DOM updation using vanilla Javascript, giving me a deeper understanding of web-development which aids me with efficient coding and seamless debugging.
+It helped me learn the internal workings of HTTP servers and manual DOM updation using vanilla Javascript, giving me a deeper understanding of web-development which has aided me with efficient coding and seamless debugging.
 
 ## Tech Stack
 
